@@ -369,8 +369,13 @@ padding: 32px 0;
    /* padding: 120px 0;*/
    padding: 96px 0;
 }
+.our-team img {
+    margin: 0 auto;
+}
+    
 .container-team {
     max-width: 296px;
+    margin-bottom: 32px;
 }
     
 
@@ -417,6 +422,7 @@ padding: 32px 0;
     gap: 24px;
     display: flex;
     justify-content: center;
+    padding: 8px 32px 32px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -428,8 +434,9 @@ padding: 32px 0;
 }
 .mark {
     padding: 32px 0;
-    gap: 24px;
+   /* gap: 24px;*/
     width: 100%;
+    padding: 0 82px;
 }
 .team-list-social {
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -444,7 +451,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-bottom: 8px;  
     display: flex; 
     flex-wrap: wrap; 
-    gap: 72px;
+    gap: 64px 24px;
 }
 
 .team-items {
@@ -453,13 +460,15 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
             0px 1px 1px rgba(46, 47, 66, 0.16),
             0px 2px 1px rgba(46, 47, 66, 0.08);
-            width: 100%;
+    width: 100%;
+    text-align: center;
            
 
 }
 
 .team-img {
     display: block;
+    width: 100%;
 }
 
 .team-name {
@@ -472,6 +481,9 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding-top: 32px;
     margin: 0 auto;
     margin-bottom: 8px;
+    display: flex;
+    width: 137px
+ 
 }
 
 .team-job {
@@ -1056,15 +1068,20 @@ margin-bottom: 24px;}
 
         .team-menu {
         display: flex;
-        gap: 64px;
+        gap: 64px 24px;
     }
-        
+        .team-img {
+                width: 100%;
+            }
           .team-items {
             width: calc((100% - 24px) / 2);
           }
          .container-team {
             max-width: 584px;
                   }
+                 .team-name  {
+                 display: inline;
+                }
 }
 
 @media screen and (min-width: 1158px) {
@@ -1095,5 +1112,7 @@ margin-bottom: 24px;}
         .team-items {
              width: calc((100% - 3 * 24px) / 4);
         }
-            
+           .mark {
+           gap: 24px;
+        }
 }
