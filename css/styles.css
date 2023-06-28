@@ -136,10 +136,13 @@ gap: 40px; }
     margin-left: auto;
     margin-right: auto;
     margin-top: 12px;
-    margin-bottom: 120px;
+    /*margin-bottom: 120px;*/
+    margin-bottom: 96px;
     width: 100%;
-    max-width: 1158px;
+    /*max-width: 1158px;*/
     display: block;
+   
+    
 
 
 
@@ -148,13 +151,18 @@ gap: 40px; }
 .hero-title {
     font-style: normal;
     font-weight: 700;
-    font-size: 56px;
+    /*font-size: 56px;*/
+    font-size: 36px;
     line-height: 1.07;
     text-align: center;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.72px;
+    /*letter-spacing: 0.02em;*/
     color: var(--first-font);
     max-width: 496px;
     margin: 0 auto;
+    margin-bottom: 72px;
+  
+   
 
 }
 
@@ -253,6 +261,7 @@ margin: 0 auto;
 
 .container-team {
 padding: 32px 0;
+margin-bottom: 96px;
 }
 .header-navigation {
     display: flex;
@@ -375,7 +384,7 @@ padding: 32px 0;
     
 .container-team {
     max-width: 296px;
-    margin-bottom: 32px;
+    margin-bottom: px;
 }
     
 
@@ -423,6 +432,7 @@ padding: 32px 0;
     display: flex;
     justify-content: center;
     padding: 8px 32px 32px;
+    margin-bottom: 32px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -669,12 +679,15 @@ position: relative;
 
 .customli {
     display: flex;
-    gap: 24px;
+   /* gap: 24px;*/
+   gap: 16px;
+   flex-wrap: wrap;
 }
 
 .custo-items {
- min-width: calc((100% - 5 * 24px) / 6);
+ /*min-width: calc((100% - 5 * 24px) / 6);*/
     height: 88px;
+    margin-bottom: 72px;
 }
 
 .custopart {
@@ -702,6 +715,7 @@ color: #404bbf;
 .custom {
 padding-top: 120px;
  padding-bottom: 120px;
+ background-color: var(--first-font);
 }
 
  
@@ -1074,14 +1088,22 @@ margin-bottom: 24px;}
                 width: 100%;
             }
           .team-items {
+            max-width: unset;
             width: calc((100% - 24px) / 2);
           }
          .container-team {
             max-width: 584px;
                   }
-                 .team-name  {
+        .team-name  {
                  display: inline;
                 }
+         .customli {
+                gap: 24px;
+                display: flex;
+                                 }
+        .custo-items {
+                width: calc((100% - 2 * 24px) / 3); 
+            }
 }
 
 @media screen and (min-width: 1158px) {
@@ -1115,4 +1137,14 @@ margin-bottom: 24px;}
            .mark {
            gap: 24px;
         }
+        .customli {
+            gap: 24px;
+            display: flex;
+        }    
+         .custo-items {
+            max-width: unset;
+    width: calc((100% - 5 * 24px) / 6);
+    display: flex;
+}   
+ 
 }
