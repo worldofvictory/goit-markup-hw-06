@@ -1101,6 +1101,7 @@ margin-bottom: 24px;}
     padding: 24px 0;
 }
 .header-address {
+    display: flex;
 flex-direction: column;
 }
 .header-address-link {
@@ -1192,6 +1193,7 @@ letter-spacing: 0.02em;
 }
 .header-address {
     display: flex;
+flex-direction: row;
     /*margin-left: auto;*/
     /*flex-grow: 1;*/
     gap: 40px;
