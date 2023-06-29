@@ -659,13 +659,13 @@ position: relative;
         justify-content: center;
         align-items: center;
         transition: border-color var(--tran-250), color var(--tran-250);
-         border-radius: 4px;
+        border-radius: 4px;
         width: 100%;
         height: 100%;
-    padding: 16px 32px;
-    border: 1px #8E8F99 solid;
-     gap: 24px;
-color: #8E8F99;
+        padding: 16px 32px;
+        border: 1px #8E8F99 solid;
+        gap: 24px;
+        color: #8E8F99;
 }
 
 .custopart:is(:hover, :focus) { 
@@ -675,7 +675,18 @@ color: #404bbf;
 .content-items-icon { 
     fill: currentColor;
 }
-
+.new-butt {
+    fill: var(--h2-font);
+}
+.new-menu{
+    display: flex;
+        /*justify-content: center;
+        align-items: center;*/
+        border-radius: 4px;
+        /*padding: 24px 0;*/
+       padding-top: 24px;
+        color: var(--h2-font);
+}
 .custom {
 padding-top: 120px;
  padding-bottom: 120px;
