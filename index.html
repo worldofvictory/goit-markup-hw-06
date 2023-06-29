@@ -21,12 +21,12 @@
  
   <body>
     <header class="header">
-      <div class="container">
+      <div class="header-container">
         <nav class="header-navigation list">
           <a class="header-logo link" href="./index.html"
             >Web<span class="diff">Studio</span>
           </a>
-          <ul class="header-menu list">
+         <ul class="header-menu list">
             <li class="header-menu-item">
               <a class="header-menu-link link current" href="./index.html"
                 >Studio</a
@@ -54,20 +54,64 @@
             <li class="header-address-item">
               <a class="header-address-link link" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
-              >
+              > 
+            </li>
+          </ul>
+        </address> 
+      
+        <button type="button" class="new-menu" data-menu-open> 
+<svg class="new-butt js-open-menu" width="32">
+  <use href="./images/icons.svg#icon-icon-menu">
+ </use>
+</svg>
+</button>
+</div>
+   <div class="mobile-menu is-hidden" data-menu>
+      <button type="button" class="header-close-btn" data-menu-close><svg class="header-menu-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-close-black"></use>
+        </svg></button>
+      <div class="mob-nav-menu">
+        <ul class="mobile-list list">
+          <li class="mobile-item"><a class="mobile-link link mob-active" href="./index.html">Studio</a></li>
+          <li class="mobile-item"><a class="mobile-link link" href="./portfolio.html">Portfolio</a></li>
+          <li class="mobile-item"><a class="mobile-link link" href="">Contacts</a></li>
+        </ul>
+      </div>
+      <div class="address-soc-box">
+        <address class="mob-address">
+          <ul class="mob-address-list list">
+            <li class="mob-address-item">
+              <a class="tel-address-link link mob-active" href="tel:+110001111111">+11 (000)
+                111-11-11</a>
+            </li>
+            <li class="mob-address-item">
+              <a class="email-address-link link"
+                href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
           </ul>
         </address>
-        <div class="new-menu">
-        <button type="button"> 
-<svg class="new-butt" width="32" height="22">
-  <use href="./images/icons.svg#icon-charm_menu-hamburger">
- </use>
-</svg>
-        </button>
-        </div>
+        <ul class="mob-icon-list list">
+          <li class="mob-icon-item"><a class="mob-icon-link link" href=""><svg class="mob-soc-icon" width="24"
+                height="24">
+                <use href="./images/icons.svg#icon-instagram-2-1"></use>
+              </svg></a></li>
+          <li class="mob-icon-item"><a class="mob-icon-link link" href=""><svg class="mob-soc-icon" width="24"
+                height="24">
+                <use href="./images/icons.svg#icon-twitter-1"></use>
+              </svg></a></li>
+          <li class="mob-icon-item"><a class="mob-icon-link link" href=""><svg class="mob-soc-icon" width="24"
+                height="24">
+                <use href="./images/icons.svg#icon-facebook-1"></use>
+              </svg></a></li>
+          <li class="mob-icon-item"><a class="mob-icon-link link" href=""><svg class="mob-soc-icon" width="24"
+                height="24">
+                <use href="./images/icons.svg#icon-linkedin-1"></use>
+              </svg></a></li>
+        </ul>
       </div>
-    </header>
+    </div> 
+
+</header>
   
 
    <main>
