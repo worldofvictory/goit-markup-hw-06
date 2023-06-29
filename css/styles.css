@@ -865,20 +865,7 @@ address.call {
 
 .footer-form {
     width: 100%;
-}
-
-.footer-input {
-    width: 100%;
-    height: 40px;
-    border: 1px solid #FFFFFF;
-    background-color: transparent;
-    font-size: 12px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    padding-left: 16px;
-   border-radius: 4px;
-    color: #FFFFFF;
-    margin-bottom: 16px;
+    
 }
 
 .footer-input::placeholder {
@@ -913,7 +900,7 @@ address.call {
     width: 40px;
     height: 40px; ;
 }
-.social-media-icon {
+/*.social-media-icon {
     fill: var(--button-background-color);
  }
 .footer .social-media-link {
@@ -936,28 +923,23 @@ address.call {
     height: min-content;
     color: var(--first-font)
 }
+*/
 .footer-input {
-    border: 1px solid var(--first-font);
-    outline: none;
-    border-radius: 4px;
-    width: 264px;
+    width: 100%;
     height: 40px;
-    padding-left: 16px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    background-color: #4D5AE5;;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
     font-size: 12px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--first-font);
-    background-color: transparent;
+    padding-left: 16px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
 }
 
-.footer-input::placeholder {
-    color: var(--first-font);
-}
 
-.footer-input-col .form-button {
+/*.footer-input-col .form-button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -976,15 +958,7 @@ address.call {
         letter-spacing: 0.02em;
     padding-bottom: 24px;
 }
-.text-foot {
-    color: var(--first-font);
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    padding-bottom: 24px;
-    margin-bottom: 16px;
-    font-weight: 500;
-}
+
 .form-button {
     font-weight: 500;
     line-height: 1.5;
@@ -994,7 +968,7 @@ address.call {
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
-}
+}*/
 .form-button-icon {
     margin-left: 16px;
 }
@@ -1404,16 +1378,20 @@ flex-direction: column;
  .footer-form-text {
      text-align: start;
  }
-
+.footer-input {
+    width: unset;
+    max-width: 264px;
+}
  .footer-form {
      flex-direction: row;
      justify-content: start;
      gap: 24px;
  }
- .new-menu{
+ .new-menu {
     display: none;
+    color: transparent;
  }
- }
+ 
 
 @media screen and (min-width: 1158px) {
 .container {
