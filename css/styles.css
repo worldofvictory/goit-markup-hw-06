@@ -699,9 +699,10 @@ position: relative;
 .customli {
     display: flex;
    /* gap: 24px;*/
-   gap: 16px;
+   gap: 72px 16px;
    flex-wrap: wrap;
-   margin: auto 0;
+   align-items: center;
+   justify-content: center;
 }
 
 .custo-items {
@@ -746,55 +747,6 @@ address.call {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;}
-
-/*.footer {
-    padding: 100px 0;
-    background-color: #2E2F42;
-}
-
-.footer .container {
-  display: flex;
-    align-items: baseline;
-}
-
-.footer .logo {
-    display: inline-block;
-    margin-bottom: 16px;
-}
-
-.footer .logo .span {
-    color: var(--button-background-color);
-}
-
-.footer-left-col {
-    margin-right: 120px;
-}
-
-.footer-left-col .text {
-    max-width: 264px;
-    color: var(--button-background-color);
-}
-
-.footer-right-col {
-    min-width: 208px;
-}
-
-.footer-right-col .text {
-    margin-bottom: 16px;
-    font-weight: 500;
-    color: var(--first-font);
-}
-
-.footer .social-media-list {
-    display: flex;
-    justify-content: center;
-    gap: 16px;
-}*/
-.footer {
-    background-color: var(--h2-font);
-    /*padding-top: 100px;
-    padding-bottom: 100px;*/
-}
 
 .footer-container {
     display: flex;
