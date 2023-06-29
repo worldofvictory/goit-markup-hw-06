@@ -282,7 +282,6 @@ margin: 0 auto;
         transition: transform 250ms ease-in-out;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
         overflow: auto;
 }
 .mobile-menu.is-open {
