@@ -214,10 +214,7 @@ margin: 0 auto;
     gap: 40px;
     margin-bottom: 48px;
 }
-.mob-active {
-    display: flex;
-    color: #404BBF;
-}
+
 /*.tel-address-link {
     font-style: normal;
     color: #4D5AE5;
@@ -260,6 +257,10 @@ margin: 0 auto;
        /* color: #404BBF;*/
         
 }
+.mob-active {
+    display: flex;
+    color: #404BBF;
+}
 .mob-soc-icon {
     fill: var(--first-font);
 }
@@ -270,20 +271,22 @@ margin: 0 auto;
     gap: 56px;
 }
 .mobile-menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    padding: 24px 35px 40px 40px;
-    background-color: #fff;
-    z-index: 999;
-    /* transform: translateX(100%); */
-    transition: transform 250ms ease-in-out;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    overflow: auto;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 24px 35px 40px 40px;
+        background-color: #fff;
+        z-index: 999;
+        transform: translateX(100%);
+        transition: transform 250ms ease-in-out;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        overflow: auto;
+}
+.mobile-menu.is-open {
+    transform: translateX(0);
 }
 .header-close-btn {
     display: flex;
@@ -750,8 +753,8 @@ address.call {
 }
 
 .footer .container {
-    display: flex;
-    align-items: baseline;
+   /* display: flex;
+    align-items: baseline;*/
 }
 
 .footer .logo {
@@ -1258,6 +1261,9 @@ flex-direction: column;
 .header-open-btn {
     display: none;
 }
+.mobile-menu {
+    display: none;
+}
 
 @media screen and (min-width: 1158px) {
 .container {
@@ -1364,5 +1370,35 @@ flex-direction: row;
             font-size: 16px;
             line-height: 1.5;
         }
+                 .footer {
+                     padding-bottom: 100px;
+                     padding-top: 100px;
+                    background-color: #2E2F42;
+                 }
+        
+                 .footer .container{
+                     flex-direction: row;
+                     flex-wrap: nowrap;
+                     margin-left: auto;
+                 }
+        
+                 .text {
+                     width: 264px;
+                    color: var(--first-font);
+                        font-size: 16px;
+                        line-height: 1.5;
+                        letter-spacing: 0.02em;
+                        padding-bottom: 24px;
+                 }
+        
+                 .footer-left-col {
+                     margin-right: 120px;
+                     max-width: 264px;
+                 }
+        
+                 .footer-input-col {
+                     width: unset;
+                     margin-left: 80px;
+                 }
 }
 }
