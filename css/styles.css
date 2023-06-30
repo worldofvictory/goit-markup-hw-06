@@ -240,7 +240,7 @@ margin: 0 auto;
     gap: 40px;
     margin-bottom: 48px;
 }
-.adress-doc-box {
+.adress-soc-box {
     margin-top: auto;
 }
 .mobile-item:not(:last-child) {
@@ -899,7 +899,8 @@ address.call {
     width: 100%;
 }
 .footer-form {
-    width: 100%;   
+    width: 100%; 
+    display: flex;  
 }
 
 .footer-input::placeholder {
@@ -922,7 +923,7 @@ address.call {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
 }
 
 .footer-form-icon {
@@ -1180,7 +1181,7 @@ margin-bottom: 24px;}
             border-radius: 4px;
             border: none;
             cursor: pointer;
-            margin: 24px auto;
+           margin: 24px auto;
             min-width: 169px;
                 height: 56px;
                 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1381,8 +1382,9 @@ flex-direction: column;
      text-align: start;
  }
 .footer-input {
-    width: unset;
+   /* width: unset;*/
     max-width: 264px;
+    width: 100%;
 }
  .footer-form {
      flex-direction: row;
@@ -1391,7 +1393,11 @@ flex-direction: column;
  }
  .new-menu {
     display: none;
-    color: transparent;
+    color: transparent;}
+    
+    .footer-btn{
+        width: 77px;
+    }
  }
  
 
@@ -1510,7 +1516,7 @@ flex-direction: row;
                             
         .footer-logo-text-soc {
             flex-direction: unset;
-            gap: unset;
+            /*gap: unset;*/
             margin-right: 120px;
        }
                             
