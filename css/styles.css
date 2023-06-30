@@ -218,7 +218,7 @@ margin: 0 auto;
         border: none;
         align-items: center;
         justify-content: center;
-        /*padding: 24px 0;*/
+      /* padding: 24px 0;*/
 }
 .header-menu {
     display: none;
@@ -239,6 +239,12 @@ margin: 0 auto;
     flex-direction: column;
     gap: 40px;
     margin-bottom: 48px;
+}
+.adress-doc-box {
+    margin-top: auto;
+}
+.mobile-item:not(:list-child) {
+    margin-bottom: 40px;
 }
 .mobile-list {
  margin-bottom: 50px;
@@ -287,9 +293,9 @@ margin: 0 auto;
        gap: 40px;
         
 }
-.mob-address-item:not(:last-child) {
+/*.mob-address-item:not(:last-child) {
     margin-bottom: 40px;
-}
+}*/
 .mob-active {
     display: flex;
     color: #404BBF;
@@ -319,8 +325,7 @@ margin: 0 auto;
         flex-direction: column;
         overflow: auto;
         position: fixed;
-        box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
-        justify-content: space-between;          
+        box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);          
 }
 
 .mobile-menu.is-open {
@@ -350,9 +355,6 @@ margin-bottom: 96px;
 .list {
     list-style: none;
 }
-
-
-
 .content-menu {
     display: flex;
     gap: 24px;
@@ -361,10 +363,8 @@ margin-bottom: 96px;
 
 .content-items {
    /* width: calc((100% - 3 * 24px) / 4); */
-   width: 100%;
-   
+   width: 100%;  
 }
-
 
 .iconpart {
    /* background: #F4F4FD;*/
@@ -896,15 +896,8 @@ address.call {
     align-items: center;
     width: 100%;
 }
-
-/*.footer-form {
-    display: flex;
-    gap: 24px;
-}*/
-
 .footer-form {
-    width: 100%;
-    
+    width: 100%;   
 }
 
 .footer-input::placeholder {
@@ -939,30 +932,7 @@ address.call {
     width: 40px;
     height: 40px; ;
 }
-/*.social-media-icon {
-    fill: var(--button-background-color);
- }
-.footer .social-media-link {
-    transition: background-color var(--tran-250);
-    width: 100%;
-    height: 100%;
-    display: flex;
-    border-radius: 50%;
-    align-items: center;
-    justify-content: center;
-    background-color: #4d5ae5;
-}
 
-.footer .social-media-link:is(:hover, :focus) {
-    background-color: var(--green-color);
-}
-.footer-input-col .form {
-    display: flex;
-    gap: 24px;
-    height: min-content;
-    color: var(--first-font)
-}
-*/
 .footer-input {
     width: 100%;
     height: 40px;
