@@ -1511,11 +1511,12 @@ flex-direction: row;
         .footer-logo-text-soc {
             flex-direction: unset;
             gap: unset;
-       }
-                            
-        .footer-logo-text {
             margin-right: 120px;
        }
+                            
+       /* .footer-logo-text {
+            margin-right: 120px;
+       }*/
                             
         .footer-logo {
             margin-bottom: 16px;
