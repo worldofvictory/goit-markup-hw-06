@@ -675,7 +675,9 @@ position: relative;
     row-gap: 48px;
     }
 
-
+.adress-soc-box {
+    margin-top: auto;
+}
 .appc {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
