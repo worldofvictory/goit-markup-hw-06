@@ -3,16 +3,14 @@
     --h2-font: #2E2F42;
     --color-adress: #434455;
     --buttcol: #e7e9fc;
-        --portfolio-filters: #4d5ae5;
-        --button-background-color: #f4f4fd;
-        --litle-text: #434455;
-        --header-menu-link: #404bbf;
-        --border-bttn-color: #e7e9fc;
-        --tran-250: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        --navy-blue-color: #2e2f42;
-        --green-color: #31d0aa;
-        --modal-color: #fcfcfc;
-      
+    --portfolio-filters: #4d5ae5;
+    --button-background-color: #f4f4fd;
+    --header-menu-link: #404bbf;
+    --border-bttn-color: #e7e9fc;
+    --tran-250: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    --navy-blue-color: #2e2f42;
+    --green-color: #31d0aa;
+     --modal-color: #fcfcfc;      
 }
 
 body {
@@ -250,15 +248,6 @@ margin: 0 auto;
  margin-bottom: 50px;
 }
 
-/*.tel-address-link {
-    font-style: normal;
-    color: #4D5AE5;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-}*/
 
 .email-address-link {
     color: #434455;
@@ -290,12 +279,14 @@ margin: 0 auto;
         text-transform: capitalize;
         color: #2E2F42;
        /* color: #404BBF;*/
-       gap: 40px;
-        
+       gap: 40px;       
 }
-/*.mob-address-item:not(:last-child) {
-    margin-bottom: 40px;
-}*/
+.adress-soc-box {
+display: flex;
+flex-direction: column;   
+justify-content: space-between;
+}
+
 .mob-active {
     display: flex;
     color: #404BBF;
